@@ -11,7 +11,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
 }
 
@@ -91,6 +91,8 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+    background: lighten($primary-color, 5);
+    padding: 1rem;
   }
 
   .job-1 {
@@ -114,6 +116,7 @@ main {
       display: block;
       margin-left: auto;
       margin-right: auto;
+      padding-top: 2px;
       width: 75%;
     }
   }
