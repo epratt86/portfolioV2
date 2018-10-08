@@ -44,6 +44,37 @@
   <main id="contact">
     <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
     <h2 class="sm-heading">This is how you can reach me...</h2>
+
+    <form action="/dist/success.html" method="POST" netlify>
+      <div class="row">
+        <div class="col-25">
+          <label>Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="name" placeholder="John Smith">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Email</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="email" placeholder="your@email.com">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label>Message</label>
+        </div>
+        <div class="col-75">
+          <textarea name="message" placeholder="Say something here..." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+
     <div class="boxes">
       <div>
         <span class="text-secondary">Email:</span> eric@epratt.net
