@@ -22,7 +22,7 @@
   div.menu-branding {
     float: none;
     width: 100%;
-    min-height: 0;
+    min-height: 160px;
 
     &.show {
       transform: translate3d(0, 0, 0);
@@ -30,9 +30,12 @@
   }
 
   .menu-nav {
-    height: 75vh;
     transform: translate3d(-100%, 0, 0);
-    font-size: 24px;
+    padding-bottom: 8rem;
+  }
+
+  .menu .nav-link {
+    padding: 1rem;
   }
 
   .menu-branding {
@@ -42,6 +45,7 @@
     .portrait {
       background: url("../img/suited\ _small.jpg");
       width: 150px;
+      margin: 5px;
     }
   }
 
