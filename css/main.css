@@ -469,6 +469,8 @@ input[type="submit"] {
       font-size: 5rem; }
     main .sm-heading {
       font-size: 1rem; }
+  .menu-nav {
+    padding-bottom: 15rem; }
   .menu .nav-link {
     font-size: 1.5rem;
     padding: 2rem; } }
