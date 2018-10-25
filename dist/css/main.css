@@ -443,7 +443,9 @@ input[type="submit"] {
     transform: translate3d(-100%, 0, 0);
     padding-bottom: 8rem; }
   .menu .nav-link {
-    padding: 1rem; }
+    line-height: 18px;
+    font-size: 1rem;
+    padding: 10px; }
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
@@ -466,4 +468,7 @@ input[type="submit"] {
       margin-top: 1rem;
       font-size: 5rem; }
     main .sm-heading {
-      font-size: 1rem; } }
+      font-size: 1rem; }
+  .menu .nav-link {
+    font-size: 1.5rem;
+    padding: 2rem; } }

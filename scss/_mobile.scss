@@ -35,7 +35,9 @@
   }
 
   .menu .nav-link {
-    padding: 1rem;
+    line-height: 18px;
+    font-size: 1rem;
+    padding: 10px;
   }
 
   .menu-branding {
@@ -80,5 +82,9 @@
     .sm-heading {
       font-size: 1rem;
     }
+  }
+  .menu .nav-link {
+    font-size: 1.5rem;
+    padding: 2rem;
   }
 }
