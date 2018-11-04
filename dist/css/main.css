@@ -317,6 +317,8 @@ main {
   grid-template-columns: repeat(2, 1fr); }
   .projects img {
     width: 100%;
+    height: auto;
+    max-height: 380px;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
